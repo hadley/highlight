@@ -1,6 +1,6 @@
 #' @importFrom grDevices rgb postscript dev.off pdf
 #' @importFrom tools vignetteEngine
-#' @useDynLib highlight
+#' @useDynLib highlight, .registration = TRUE
 #' @importFrom grDevices col2rgb colors
 #' @importFrom utils Rtangle RweaveChunkPrefix RweaveEvalWithOpt
 #'   RweaveLatexFinish RweaveLatexOptions RweaveLatexSetup RweaveTryStop
