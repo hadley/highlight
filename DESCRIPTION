@@ -1,6 +1,6 @@
 Package: highlight
 Title: Syntax Highlighter
-Version: 0.4.7
+Version: 0.4.7.9000
 Authors@R: 
     c(person(given = "Hadley",
              family = "Wickham",
