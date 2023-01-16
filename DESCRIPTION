@@ -1,6 +1,6 @@
 Package: highlight
 Title: Syntax Highlighter
-Version: 0.5.0.9000
+Version: 0.5.1
 Authors@R: c(
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = "cre"),
     person("Romain", "Francois", role = "aut"),
