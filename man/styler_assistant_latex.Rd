@@ -10,7 +10,7 @@ styler_assistant_latex(x)
 \item{x}{output from \code{\link{css.parser}}}
 }
 \value{
-a vector of latex style definitions corresponding to (a subset of) the 
+a vector of latex style definitions corresponding to (a subset of) the
         output of the parser
 }
 \description{
@@ -19,10 +19,10 @@ produces latex style definitions from it.
 }
 \details{
 The function create a new latex command for each css declaration, i.e.
-each item of the list \samp{x} it is passed. 
+each item of the list \samp{x} it is passed.
 
-The assistant currently honours the following css settings: color, 
-\samp{text-decoration:underline}, \samp{font-weight:bold[er]} and 
+The assistant currently honours the following css settings: color,
+\samp{text-decoration:underline}, \samp{font-weight:bold[er]} and
 \samp{font-style:italic}
 }
 \seealso{

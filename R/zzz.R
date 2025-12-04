@@ -9,11 +9,14 @@ NULL
 
 NAMESPACE <- environment()
 
-.onLoad <- function(libname, pkgname){
-	options( detective = simple_detective )
+.onLoad <- function(libname, pkgname) {
+  options(detective = simple_detective)
 
-	vignetteEngine("highlight", weave = Hweave, tangle = Htangle,
-        pattern = "[.][hHrRsS]nw$",
-        package = "highlight")
+  vignetteEngine(
+    "highlight",
+    weave = Hweave,
+    tangle = Htangle,
+    pattern = "[.][hHrRsS]nw$",
+    package = "highlight"
+  )
 }
-

@@ -32,10 +32,10 @@ renderer_html(
 
 \item{document}{logical. Indicates if the renderer should render a full document
 or simply a \samp{<pre>} section containing the highlighted
-tokens. This argument is used by the \code{\link{header_html}} and 
+tokens. This argument is used by the \code{\link{header_html}} and
 \code{\link{footer_html}} to build appropriate header and footer.}
 
-\item{translator}{Since the highlighted tokens are wrapped in a \samp{<pre>} tag, 
+\item{translator}{Since the highlighted tokens are wrapped in a \samp{<pre>} tag,
 no further translation is needed.}
 
 \item{formatter}{html formatter. creates \samp{<span>} tags for all tokens.
@@ -45,14 +45,14 @@ See \code{\link{formatter_html}}}
 
 \item{newline}{returns a newline character}
 
-\item{header}{html header. Depending on the \samp{document} argument, this will be a 
-function building a the beginning of a 
-complete html document (starting with \samp{<html>}) including 
-css definitions or simply a function returning \samp{<pre>} 
-enabling the renderer to be used to just render the syntax 
+\item{header}{html header. Depending on the \samp{document} argument, this will be a
+function building a the beginning of a
+complete html document (starting with \samp{<html>}) including
+css definitions or simply a function returning \samp{<pre>}
+enabling the renderer to be used to just render the syntax
 as part of a bigger document.}
 
-\item{footer}{html footer. Depending on the \samp{document} argument, this will 
+\item{footer}{html footer. Depending on the \samp{document} argument, this will
 either close the full document (close the \samp{</html>} tag)
 or simply close the \samp{</pre>} tag.}
 
@@ -73,8 +73,8 @@ the information as a series of \samp{<span>} html tags
 }
 \seealso{
 \code{\link{renderer}} for a description of the interface
-	this renderer is implementing. 
-	
-	\code{\link{highlight}} takes a renderer argument to which it 
+	this renderer is implementing.
+
+	\code{\link{highlight}} takes a renderer argument to which it
 	delegates rendering.
 }

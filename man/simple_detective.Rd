@@ -7,7 +7,7 @@
 simple_detective(x, ...)
 }
 \arguments{
-\item{x}{output of the parser. The detective is only interested in the 
+\item{x}{output of the parser. The detective is only interested in the
 \samp{token} column of the data.}
 
 \item{\dots}{ignored}
@@ -16,7 +16,7 @@ simple_detective(x, ...)
 a vector of styles grouping similar tokens together
 }
 \description{
-This detective only uses semantic information to make its 
+This detective only uses semantic information to make its
 investigation.
 }
 \examples{
