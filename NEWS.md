@@ -1,5 +1,7 @@
 # highlight (development version)
 
+* Remove C++11 requirement
+
 # highlight 0.5.1
 
 * Fix R CMD check failure
