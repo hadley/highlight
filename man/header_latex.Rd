@@ -10,7 +10,7 @@ header_latex(document, styles, boxes, minipage = FALSE)
 footer_latex(document, minipage = FALSE)
 }
 \arguments{
-\item{document}{logical. If TRUE the header and footer functions will create the 
+\item{document}{logical. If TRUE the header and footer functions will create the
 full document (including preamble with boxes and styles)}
 
 \item{styles}{a vector of style definitions to include in the preamble if document is TRUE}
@@ -28,7 +28,6 @@ These functions return appropriate header and footer functions
 for the latex renderer
 }
 \examples{
-  
 h <- header_latex( document = FALSE )
 h()
 f <- footer_latex( document = FALSE )
