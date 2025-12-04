@@ -52,3 +52,17 @@ The main function of the package is \code{\link{highlight}}.
 	using \code{\link{highlight}} to perform syntax 
 	highlighting of R code chunks.
 }
+\author{
+\strong{Maintainer}: Hadley Wickham \email{hadley@rstudio.com}
+
+Authors:
+\itemize{
+  \item Romain Francois
+}
+
+Other contributors:
+\itemize{
+  \item Andre Simon \email{andre.simon1@gmx.de} [contributor]
+}
+
+}

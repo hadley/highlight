@@ -45,9 +45,7 @@
 #' 
 #' unlink( tf )
 #' }
-#' @docType package
-#' @name highlight-package
-NULL
+"_PACKAGE"
 	
 subsetParseData <- function( p, i = 0, styles){
     data <- getParseData(p)
