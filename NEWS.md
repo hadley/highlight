@@ -1,4 +1,4 @@
-# highlight (development version)
+# highlight 0.5.2
 
 * Remove C++11 requirement
 
