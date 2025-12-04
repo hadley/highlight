@@ -6,5 +6,4 @@ highlight
 [![Codecov test coverage](https://codecov.io/gh/hadley/highlight/graph/badge.svg)](https://app.codecov.io/gh/hadley/highlight)
 <!-- badges: end -->
 
-Syntax highlighter for R based on [highlight](http://www.andre-simon.de/doku/highlight/en/highlight.php)
-
+Syntax highlighter for R based on [highlight](http://andre-simon.de/doku/highlight/en/highlight.php)
